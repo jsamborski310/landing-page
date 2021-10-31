@@ -1,0 +1,47 @@
+body {
+    margin:0;
+}
+.mainmenu {
+    background-color: black;
+    margin-top: -20px;
+    border-bottom:10px solid pink;
+}
+ul {
+    text-align: right;
+    padding: 40px 40px 20px;
+}
+li {
+    color:white;
+    display: inline-block;
+    text-transform:uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left:30px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+img {
+    width:400px;
+    height:auto;
+    display: block;
+    margin: 0 auto;
+}
+p {
+    text-align: center;
+}
+
+section {
+    background-color: black;
+}
+h2 {
+    text-align: center;
+    color: white;
+}
+.text-label {
+    color:white;
+}
+form {
+    display: block;
+}
