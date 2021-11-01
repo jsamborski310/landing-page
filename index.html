@@ -5,33 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;800&display=swap" rel="stylesheet">
     <title>First Landing Page</title>
 </head>
 <body>
 
     <!--TOP BAR WITH NAVIGATION-->
-    <nav class="mainmenu">
-        <ul>
-            <li>Github</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
-        </ul>
-    </nav>
-    <main>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://github.com/jsamborski310">Github</a></li>
+                <li><a href="https://juanitasamborski.com">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <!--MAIN CONTENT-->
-        <header>
-            <h1>My First Website</h1>
-        </header>
+    <main>
+
+        <h1>My First Website</h1>
         <img src="assets/images/Pacific-Northwest.jpg" alt="Ocean waves crashing on a sandy beach, surrounded by woods and mountains.">
+        <figcaption>The Pacific Northwest</figcaption>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+
     </main>
         
     <!--CONTACT FORM-->
-    <section class="Contact">
-        <header>
-            <h2>Contact Me</h2>
-        </header>
+    <section id="contact">
+
+        <h2>Contact Me</h2>
         <form>
             <div>
                 <label for="name">Name</label>
@@ -42,14 +47,13 @@
                 <input class="input-field" type="email" id="email" name="email" >
             </div>
             
-            <input class="submit-button" type="submit" value="Submit">
-            
+            <input class="submit-button" type="submit" value="Submit">    
         </form>
     </section>
 
     <!--FOOTER-->
     <footer>
-        something
+        <p>©2021 My New Website Productions</p>
     </footer>
 
 </body>
