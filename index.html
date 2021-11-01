@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style.css">
-    <title>Document</title>
+    <title>First Landing Page</title>
 </head>
 <body>
 
+    <!--TOP BAR WITH NAVIGATION-->
     <nav class="mainmenu">
         <ul>
             <li>Github</li>
@@ -18,41 +19,38 @@
     </nav>
     <main>
 
+    <!--MAIN CONTENT-->
         <header>
             <h1>My First Website</h1>
         </header>
-        <img src="assets/images/smoky-flames.jpg" alt="About the image">
+        <img src="assets/images/Pacific-Northwest.jpg" alt="Ocean waves crashing on a sandy beach, surrounded by woods and mountains.">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
     </main>
         
-        <section class="Contact">
-            <header>
-                <h2>Contact Me</h2>
-            </header>
-            <form>
-
-                <label class="text-label" for="name">Name</label>
-                <input type="text" id="name" name="name">
+    <!--CONTACT FORM-->
+    <section class="Contact">
+        <header>
+            <h2>Contact Me</h2>
+        </header>
+        <form>
+            <div>
+                <label for="name">Name</label>
+                <input class="input-field" type="text" id="name" name="name">
+            </div>
+            <div>    
+                <label for="email">Email</label>
+                <input class="input-field" type="email" id="email" name="email" >
+            </div>
             
-                <label class=" text-label" for="email">Last Name</label>
-                <input type="email" id="email" name="lastname" >
+            <input class="submit-button" type="submit" value="Submit">
             
-            
-                <input type="submit" value="Submit">
-            
-              </form>
+        </form>
+    </section>
 
-        </section>
-        <footer>
-            something
-        </footer>
-
-
-
-
-
-   
-
+    <!--FOOTER-->
+    <footer>
+        something
+    </footer>
 
 </body>
 </html>
