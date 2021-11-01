@@ -110,5 +110,6 @@ footer {
     background-color: pink;
     padding:20px 0;
     text-align: center;
+    border-bottom: 10px solid black;
 }
 
